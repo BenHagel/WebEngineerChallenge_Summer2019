@@ -1,0 +1,76 @@
+html {
+	font-family: 'Roboto-Light', sans-serif;
+	text-rendering: optimizeLegibility;
+	color: white;
+	overflow: hidden;
+}
+
+body {
+	//background: linear-gradient(45deg, #0000B4, #800080);
+	background-color: rgb(170, 56, 255);
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+	-webkit-animation: AnimationName 124s ease infinite;
+	-moz-animation: AnimationName 124s ease infinite;
+	-o-animation: AnimationName 124s ease infinite;
+	animation: AnimationName 124s ease infinite;
+}
+
+.hidden {
+    transition: all 1s ease-in-out !important;
+    opacity:0;
+    max-height:0;
+    max-width:0;
+    display:none;
+    padding:0 !important;
+    margin:0 !important;
+    border:none !important;
+    overflow:hidden;
+}
+
+
+.tile-content {
+	text-align: center;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+	height: 100%;
+	color: rgb(255, 255, 255);
+}
+
+
+.header {
+	background-color: rgb(20, 200, 128);
+	font-size: 40px;
+	min-height: 200px;
+	padding: 10px 10px;
+}
+
+
+footer {
+	//background: linear-gradient(0deg, #000000, #0000FF);
+	background: linear-gradient(0deg, #0000B4, #2E1042);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	text-align: center;
+}
