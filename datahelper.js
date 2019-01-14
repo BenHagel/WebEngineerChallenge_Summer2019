@@ -19,6 +19,7 @@ DataHelper.compileSearchScores = function(req, res, val){
 	//Confirm if there is enough information, and not too much information
 	//in the search to return anything useful
 	val = val.replace(/\s\s+/g, ' ');
+	val = val.toLowerCase();
 	if(val.length < 3 || val.length > 55){sendInvalidAPICall(req, res); return;}
 	//Split searches into its keywords
 	val = val.split(' ');
