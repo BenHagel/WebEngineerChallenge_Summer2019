@@ -7,8 +7,29 @@
     	<script type="text/javascript" src="./ServerAPI.js"></script>
 	</head>
 
-	<body>
-		<div class="header tile-content">Toronto Waste Lookup</div>
+	<body onload="ServerAPI.bindKeyListener()">
+		<div class="header tile-content">
+			<b>Toronto Waste Lookup</b>
+		</div>
+		<div class="search-area">
+			<input type="text" id="searchInput" rows="1" maxlength="50" placeholder="Item to dispose of..."></input>
+			<a class="button-link" href="javascript:void(0)" onclick="ServerAPI.searchRequest()"><img id="searchButton" src="magGlass.png" width="50" height="50"></a>
+		</div>
+		<div id="resultsArea">
+			<div id="tableContainer">
 
+			</div>
+		</div>
+		<div class="favourites-area">
+			<b>Favourites</b>
+			<div id="favouritesContentConatiner">
+				<div id="favouritesContent">
+
+				</div>
+			</div>
+		</div>
+
+		<script>
+		</script>
 	</body>
 </html>
