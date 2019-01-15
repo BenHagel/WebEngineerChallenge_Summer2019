@@ -3,7 +3,8 @@ Jan 12, 2019
 
 Full stack solution for this problem does its best to implement the specified use cases.
 This is a NodeJS application that uses the [Express](https://www.npmjs.com/package/express) framework to handle the
-delivery of the webpage as well as the API calls for searching.
+delivery of the webpage as well as the API calls for searching.  It is hosted at
+my personal domain (http://affsoft.ca/) that points to a VM on [Digital Ocean](https://www.digitalocean.com).
 
 
 RUN INSTRUCTIONS
@@ -21,7 +22,6 @@ Credit for Levenshtein distance implementation: [Levenshtein Distance Algo](http
 
 
 
-#Challenge Instructions
 # Web Engineer Challenge - Summer 2019
 
 Build a web app to search for waste items using the Toronto Waste Wizard database, and save frequently used ones.
